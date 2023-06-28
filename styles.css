@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-media{
+    margin-top: 30px;
+    color: #fff;
+}
+
+.caixa-maior{
+    background: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    border-radius: 25;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 70px);
+    color: #fff ;
+}
+
+.botao-buscar{
+   border: none;
+   outline: none;
+   padding: 10px;
+   border-radius: 50px;
+   background-color:#7c7c7c2b ;
+   cursor: pointer;
+  
+}
+
+
+.img-buscar{
+
+    width: 20px;
+}
+
+.cidade{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+
+.texto-previsao{
+    text-transform: capitalize;
+}
